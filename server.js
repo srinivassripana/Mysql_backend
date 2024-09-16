@@ -14,7 +14,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   database: 'booking_db',
-  password: 'Sai@1234567890',
+  password: '************',
 });
 
 // Start the server
