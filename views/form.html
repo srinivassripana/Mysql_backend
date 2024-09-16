@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Form</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Book Your Stay</h2>
+    <form action="/submit-booking" method="POST">
+      <div class="form-group">
+        <label for="hotelName">Hotel Name</label>
+        <input type="text" id="hotelName" name="hotelName" placeholder="Enter hotel name" required>
+      </div>
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+      </div>
+      <div class="form-group">
+        <label for="checkInDate">Check-In Date</label>
+        <input type="date" id="checkInDate" name="checkInDate" required>
+      </div>
+      <div class="form-group">
+        <label for="checkOutDate">Check-Out Date</label>
+        <input type="date" id="checkOutDate" name="checkOutDate" required>
+      </div>
+      <div class="form-group">
+        <label for="price">Total Price</label>
+        <input type="number" id="price" name="price" placeholder="Enter total price" required>
+      </div>
+      <button type="submit" class="submit-btn-button">Submit Booking</button>
+    </form>
+  </div>
+</body>
+</html>
